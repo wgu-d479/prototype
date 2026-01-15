@@ -1,0 +1,103 @@
+{
+  "activities": [
+    {
+      "id": "snorkeling",
+      "name": "Snorkeling Tours",
+      "description": "Explore the vibrant underwater world around Taniti's pristine coral reefs.",
+      "ageRequirement": "8+",
+      "duration": "3 hours",
+      "categories": ["family-friendly", "beach", "adventure"],
+      "hasExternalBooking": true,
+      "price": "$75/person",
+      "image": "/images/activities/snorkeling.jpg"
+    },
+    {
+      "id": "volcano-visit",
+      "name": "Volcano Visit",
+      "description": "Experience the awe-inspiring sight of Taniti's active volcano. Moderate hiking.",
+      "ageRequirement": "10+",
+      "duration": "5 hours",
+      "categories": ["adventure", "nature"],
+      "hasExternalBooking": true,
+      "price": "$95/person",
+      "image": "/images/activities/volcano.jpg"
+    },
+    {
+      "id": "zipline",
+      "name": "Rainforest Zip-Lining",
+      "description": "Experience the island from a bird's eye view with multiple platforms and lines. Safety equipment and instruction provided.",
+      "ageRequirement": "12+",
+      "duration": "2 hours",
+      "categories": ["adventure", "nature"],
+      "hasExternalBooking": true,
+      "price": "$85/person",
+      "image": "/images/activities/zipline.jpg"
+    },
+    {
+      "id": "beach-day",
+      "name": "Beach Activities",
+      "description": "Enjoy the pristine white sandy beaches surrounding Yellow Leaf Bay. Swimming, sunbathing, beach volleyball, and more. Perfect for families.",
+      "ageRequirement": "All ages",
+      "duration": "Flexible",
+      "categories": ["family-friendly", "beach"],
+      "hasExternalBooking": false,
+      "price": "Free",
+      "image": "/images/activities/beach.jpg"
+    },
+    {
+      "id": "history-museum",
+      "name": "Local History Museum",
+      "description": "Discover Taniti's rich cultural heritage at our local history museum.",
+      "ageRequirement": "All ages",
+      "duration": "1-2 hours",
+      "categories": ["family-friendly", "cultural"],
+      "hasExternalBooking": false,
+      "price": "$10/person",
+      "image": "/images/activities/museum.jpg"
+    },
+    {
+      "id": "fishing-tour",
+      "name": "Chartered Fishing Tours",
+      "description": "Join experienced local fishermen for a deep-sea fishing adventure. All equipment provided, and you can keep your catch! Great for families and fishing enthusiasts alike.",
+      "ageRequirement": "6+",
+      "duration": "4 hours",
+      "categories": ["family-friendly", "adventure"],
+      "hasExternalBooking": true,
+      "price": "$120/person",
+      "image": "/images/activities/fishing.jpg"
+    },
+    {
+      "id": "helicopter-tour",
+      "name": "Helicopter Tours",
+      "description": "This aerial tour showcases the volcano, rainforest, beaches, and Yellow Leaf Bay. An unforgettable way to appreciate the island's diverse terrain.",
+      "ageRequirement": "5+",
+      "duration": "45 minutes",
+      "categories": ["adventure"],
+      "hasExternalBooking": true,
+      "price": "$250/person",
+      "image": "/images/activities/helicopter.jpg"
+    },
+    {
+      "id": "boat-tour",
+      "name": "Island Boat Tours",
+      "description": "Cruise around Taniti and explore hidden coves, remote beaches, and coastal wildlife. Includes stops for swimming and snorkeling. Lunch provided on full-day tours.",
+      "ageRequirement": "All ages",
+      "duration": "3 hours",
+      "categories": ["family-friendly", "beach"],
+      "hasExternalBooking": true,
+      "price": "$65/person",
+      "image": "/images/activities/boat.jpg"
+    },
+    {
+      "id": "art-galleries",
+      "name": "Art Galleries",
+      "description": "Visit local art galleries showcasing work by Tanitian artists. From traditional crafts to contemporary paintings, these galleries offer a window into the island's creative community.",
+      "ageRequirement": "All ages",
+      "duration": "1 hour",
+      "categories": ["cultural"],
+      "hasExternalBooking": false,
+      "price": "Free",
+      "image": "/images/activities/art.jpg"
+    }
+  ]
+}

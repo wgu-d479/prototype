@@ -1,0 +1,131 @@
+{
+  "toIsland": {
+    "air": {
+      "id": "air",
+      "name": "By Air",
+      "description": "Taniti Airport serves small jets and propeller planes",
+      "details": [
+        "Small airport with 1 runway",
+        "Accommodates small jets and propeller planes",
+        "Airport expansion planned - larger jets in coming years",
+        "Most visitors arrive by air",
+        "Located near rental car agencies"
+      ],
+      "hasExternalBooking": true,
+      "image": "/images/transport/airport.jpg"
+    },
+    "cruise": {
+      "id": "cruise",
+      "name": "By Cruise Ship",
+      "description": "Small cruise ships dock in Yellow Leaf Bay",
+      "details": [
+        "Small cruise ships dock weekly",
+        "One night per week stays",
+        "Convenient harbor access in Yellow Leaf Bay",
+        "Walking distance to Taniti City",
+        "Shore excursions available"
+      ],
+      "hasExternalBooking": false,
+      "image": "/images/transport/cruise.jpg"
+    }
+  },
+  "onIsland": {
+    "publicBuses": {
+      "id": "public-buses",
+      "name": "Public Buses",
+      "description": "Serving Taniti City from 5am to 11pm",
+      "details": [
+        "Service to Taniti City and nearby areas",
+        "Hours: 5am - 11pm daily",
+        "Affordable fares",
+        "Frequent service on main routes",
+        "Route maps available at stops"
+      ],
+      "hasExternalBooking": false,
+      "recommended": false,
+      "price": "$5 per ride",
+      "image": "/images/transport/public-bus.jpg"
+    },
+    "privateBuses": {
+      "id": "private-buses",
+      "name": "Private Buses",
+      "description": "Serve the rest of the island",
+      "details": [
+        "Cover areas outside Taniti City",
+        "Various schedules - check locally",
+        "Less frequent than public buses",
+        "Good for reaching remote beaches and villages"
+      ],
+      "hasExternalBooking": false,
+      "recommended": false,
+      "price": "Varies by route",
+      "image": "/images/transport/private-bus.jpg"
+    },
+    "taxis": {
+      "id": "taxis",
+      "name": "Taxis",
+      "description": "Available in Taniti City",
+      "details": [
+        "Available in Taniti City",
+        "On-demand service",
+        "Can be hailed or called",
+        "Metered fares",
+        "Some drivers speak English"
+      ],
+      "hasExternalBooking": false,
+      "recommended": false,
+      "price": "Metered",
+      "image": "/images/transport/taxi.jpg"
+    },
+    "rentalCars": {
+      "id": "rental-cars",
+      "name": "Rental Cars",
+      "description": "Best option for families - explore at your own pace",
+      "details": [
+        "Local agency near airport",
+        "Book in advance recommended",
+        "Best option for families",
+        "Explore the island at your own pace",
+        "Variety of vehicle sizes available",
+        "GPS navigation available",
+        "Insurance options provided"
+      ],
+      "hasExternalBooking": true,
+      "recommended": true,
+      "price": "From $45/day",
+      "image": "/images/transport/rental-car.jpg"
+    },
+    "bikes": {
+      "id": "bikes",
+      "name": "Bike Rentals",
+      "description": "Great for exploring flat areas",
+      "details": [
+        "Several vendors available",
+        "Helmets required by law (included)",
+        "Taniti City is very flat and bikeable",
+        "Merriton Landing easy to explore by bike",
+        "Child seats and trailers available"
+      ],
+      "hasExternalBooking": false,
+      "recommended": false,
+      "price": "$10/day",
+      "image": "/images/transport/bike.jpg"
+    },
+    "walking": {
+      "id": "walking",
+      "name": "Walking",
+      "description": "Taniti City and Merriton Landing are very walkable",
+      "details": [
+        "Taniti City is flat and very walkable",
+        "Merriton Landing easy to explore on foot",
+        "Sidewalks and pedestrian paths available",
+        "Many attractions within walking distance",
+        "Great way to experience local culture"
+      ],
+      "hasExternalBooking": false,
+      "recommended": true,
+      "price": "Free",
+      "image": "/images/transport/walking.jpg"
+    }
+  }
+}

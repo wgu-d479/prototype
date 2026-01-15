@@ -1,0 +1,92 @@
+{
+  "lodging": [
+    {
+      "id": "beach-resort",
+      "name": "Four-Star Beach Resort",
+      "type": "resort",
+      "priceLevel": "$$$$",
+      "amenities": ["Pool", "Spa", "Beachfront", "Restaurant", "Fitness Center", "Ocean Views"],
+      "description": "Luxury beachfront resort with world-class amenities. Located on Yellow Leaf Bay with pristine white sand beaches. Features multiple dining options, full-service spa, infinity pool, and spacious rooms with private balconies.",
+      "hasExternalBooking": true,
+      "pricePerNight": "$350+",
+      "image": "/images/lodging/beach-resort.jpg"
+    },
+    {
+      "id": "family-hotel",
+      "name": "Family-Owned Hotel",
+      "type": "hotel",
+      "priceLevel": "$$",
+      "amenities": ["Pool", "Breakfast Included", "Family Rooms", "Free Parking", "Kids Activities"],
+      "description": "Comfortable mid-range hotel perfect for families. Features family-sized rooms, complimentary breakfast, children's pool area, and friendly local staff who know the best family activities on the island.",
+      "hasExternalBooking": true,
+      "pricePerNight": "$120",
+      "image": "/images/lodging/family-hotel.jpg"
+    },
+    {
+      "id": "island-inn",
+      "name": "Island Inn Hotel",
+      "type": "hotel",
+      "priceLevel": "$$",
+      "amenities": ["Air Conditioning", "WiFi", "Restaurant", "Tour Desk"],
+      "description": "Centrally located in Taniti City, this comfortable hotel offers easy access to shops, restaurants, and attractions. Modern rooms with all the essentials for a pleasant stay.",
+      "hasExternalBooking": true,
+      "pricePerNight": "$95",
+      "image": "/images/lodging/island-inn.jpg"
+    },
+    {
+      "id": "cozy-bnb",
+      "name": "Cozy Bed & Breakfast",
+      "type": "bnb",
+      "priceLevel": "$$",
+      "amenities": ["Home-cooked Meals", "Local Experience", "Garden", "Personalized Service"],
+      "description": "Experience authentic Tanitian hospitality at this charming B&B run by a local family. Enjoy home-cooked meals featuring fresh local ingredients and get insider tips on the best spots to visit.",
+      "hasExternalBooking": true,
+      "pricePerNight": "$85",
+      "image": "/images/lodging/bnb.jpg"
+    },
+    {
+      "id": "rainforest-bnb",
+      "name": "Rainforest Retreat B&B",
+      "type": "bnb",
+      "priceLevel": "$$",
+      "amenities": ["Nature Views", "Breakfast Included", "Hiking Trails", "Bird Watching"],
+      "description": "Nestled in the lush rainforest, this peaceful B&B offers a tranquil escape. Wake up to birdsong and enjoy breakfast on the terrace overlooking the forest canopy.",
+      "hasExternalBooking": true,
+      "pricePerNight": "$105",
+      "image": "/images/lodging/rainforest-bnb.jpg"
+    },
+    {
+      "id": "budget-hostel",
+      "name": "Budget Hostel",
+      "type": "hostel",
+      "priceLevel": "$",
+      "amenities": ["Shared Spaces", "Kitchen Access", "WiFi", "Common Room"],
+      "description": "Clean and affordable hostel perfect for budget travelers and backpackers. Meet fellow travelers in the common areas and enjoy the social atmosphere. Both dorm beds and private rooms available.",
+      "hasExternalBooking": true,
+      "pricePerNight": "$35",
+      "image": "/images/lodging/hostel.jpg"
+    },
+    {
+      "id": "boutique-hotel",
+      "name": "Merriton Landing Boutique Hotel",
+      "type": "hotel",
+      "priceLevel": "$$$",
+      "amenities": ["Modern Design", "Rooftop Bar", "WiFi", "Concierge", "Close to Activities"],
+      "description": "Stylish boutique hotel in the heart of Merriton Landing, close to restaurants, pubs, and entertainment. Features contemporary rooms with local art and a trendy rooftop bar.",
+      "hasExternalBooking": true,
+      "pricePerNight": "$175",
+      "image": "/images/lodging/boutique.jpg"
+    },
+    {
+      "id": "harbor-hotel",
+      "name": "Yellow Leaf Bay Harbor Hotel",
+      "type": "hotel",
+      "priceLevel": "$$$",
+      "amenities": ["Harbor Views", "Restaurant", "Pool", "Conference Rooms"],
+      "description": "Elegant hotel overlooking the harbor with stunning water views. Popular with both tourists and business travelers. Walking distance to downtown Taniti City.",
+      "hasExternalBooking": true,
+      "pricePerNight": "$160",
+      "image": "/images/lodging/harbor-hotel.jpg"
+    }
+  ]
+}

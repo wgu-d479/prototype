@@ -1,0 +1,188 @@
+{
+  "categories": [
+    {
+      "id": "local",
+      "name": "Local Cuisine",
+      "count": 5,
+      "familyFriendly": false,
+      "description": "Fresh fish and rice dishes"
+    },
+    {
+      "id": "american",
+      "name": "American-Style",
+      "count": 3,
+      "familyFriendly": true,
+      "description": "Familiar favorites"
+    },
+    {
+      "id": "pan-asian",
+      "name": "Pan-Asian Cuisine",
+      "count": 2,
+      "familyFriendly": false,
+      "description": "Diverse Asian flavors"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "family-grill",
+      "name": "Taniti Family Grill",
+      "category": "american",
+      "features": ["Kids menu", "High chairs", "Burgers", "Salads", "Sandwiches"],
+      "hours": "11am - 9pm daily",
+      "location": "Taniti City center",
+      "description": "Family-friendly restaurant serving classic American fare. Kids menu available with smaller portions and familiar favorites. High chairs and booster seats provided.",
+      "image": "/images/restaurants/family-grill.jpg"
+    },
+    {
+      "id": "island-diner",
+      "name": "Island Diner",
+      "category": "american",
+      "features": ["Breakfast all day", "Casual atmosphere", "Large portions"],
+      "hours": "6am - 10pm daily",
+      "location": "Near Yellow Leaf Bay",
+      "description": "Classic American diner with a tropical twist. Breakfast served all day. Generous portions and friendly service.",
+      "image": "/images/restaurants/island-diner.jpg"
+    },
+    {
+      "id": "beach-burger",
+      "name": "Beach Burger Bar",
+      "category": "american",
+      "features": ["Burgers", "Beachfront location", "Outdoor seating"],
+      "hours": "11am - 11pm daily",
+      "location": "Yellow Leaf Bay beachfront",
+      "description": "Casual burger joint on the beach. Perfect for a quick bite after a day of swimming. Known for creative burger combinations.",
+      "image": "/images/restaurants/beach-burger.jpg"
+    },
+    {
+      "id": "fresh-catch",
+      "name": "The Fresh Catch",
+      "category": "local",
+      "features": ["Fresh fish daily", "Traditional preparation", "Ocean views"],
+      "hours": "5pm - 10pm, closed Sundays",
+      "location": "Harbor area",
+      "description": "Experience authentic Tanitian cuisine featuring the daily catch prepared in traditional styles. Beautiful harbor views complement the fresh seafood.",
+      "image": "/images/restaurants/fresh-catch.jpg"
+    },
+    {
+      "id": "island-flavors",
+      "name": "Island Flavors",
+      "category": "local",
+      "features": ["Local fish", "Rice dishes", "Traditional recipes"],
+      "hours": "12pm - 9pm daily",
+      "location": "Taniti City",
+      "description": "Family-run restaurant serving traditional Tanitian dishes. Focus on fresh local fish and rice preparations.",
+      "image": "/images/restaurants/island-flavors.jpg"
+    },
+    {
+      "id": "seaside-seafood",
+      "name": "Seaside Seafood House",
+      "category": "local",
+      "features": ["Seafood specialties", "Outdoor dining", "Sunset views"],
+      "hours": "5pm - 11pm daily",
+      "location": "Merriton Landing",
+      "description": "Popular seafood restauran. Known for generous portions and beautiful sunset views over the water.",
+      "image": "/images/restaurants/seaside-seafood.jpg"
+    },
+    {
+      "id": "village-kitchen",
+      "name": "Village Kitchen",
+      "category": "local",
+      "features": ["Home-style cooking", "Local ingredients", "Cozy atmosphere"],
+      "hours": "11am - 8pm, closed Mondays",
+      "location": "Rural Taniti",
+      "description": "Small restaurant offering home-style Tanitian cooking. Uses ingredients from local farms and fishermen.",
+      "image": "/images/restaurants/village-kitchen.jpg"
+    },
+    {
+      "id": "bay-bistro",
+      "name": "Bay Bistro",
+      "category": "local",
+      "features": ["Contemporary local cuisine", "Fusion dishes", "Wine selection"],
+      "hours": "6pm - 11pm, closed Tuesdays",
+      "location": "Yellow Leaf Bay",
+      "description": "Upscale dining with modern takes on traditional Tanitian dishes. Creative fusion menu and extensive wine list.",
+      "image": "/images/restaurants/bay-bistro.jpg"
+    },
+    {
+      "id": "lotus-garden",
+      "name": "Lotus Garden",
+      "category": "pan-asian",
+      "features": ["Asian fusion", "Vegetarian options", "Sushi bar"],
+      "hours": "5pm - 10pm daily",
+      "location": "Merriton Landing",
+      "description": "Contemporary Pan-Asian restaurant with diverse menu spanning multiple Asian cuisines. Fresh sushi bar and excellent vegetarian options.",
+      "image": "/images/restaurants/lotus-garden.jpg"
+    },
+    {
+      "id": "spice-route",
+      "name": "Spice Route",
+      "category": "pan-asian",
+      "features": ["Thai", "Vietnamese", "Indonesian dishes", "Spice levels available"],
+      "hours": "12pm - 9pm daily",
+      "location": "Taniti City",
+      "description": "Flavorful Pan-Asian cuisine featuring dishes from Thailand, Vietnam, and Indonesia. Spice levels can be adjusted to your preference.",
+      "image": "/images/restaurants/spice-route.jpg"
+    }
+  ],
+  "groceryStores": [
+    {
+      "name": "Taniti Supermarket",
+      "type": "Supermarket",
+      "location": "Taniti City",
+      "hours": "7am - 10pm daily"
+    },
+    {
+      "name": "Island Grocery",
+      "type": "Supermarket",
+      "location": "Merriton Landing",
+      "hours": "8am - 9pm daily"
+    },
+    {
+      "name": "Bay Market",
+      "type": "Small grocery",
+      "location": "Yellow Leaf Bay",
+      "hours": "8am - 8pm daily"
+    },
+    {
+      "name": "Village Store",
+      "type": "Small grocery",
+      "location": "Rural area",
+      "hours": "9am - 6pm, closed Sundays"
+    },
+    {
+      "name": "24/7 Quick Stop",
+      "type": "Convenience store",
+      "location": "Taniti City center",
+      "hours": "Open 24 hours"
+    }
+  ],
+  "practicalInfo": {
+    "medical": [
+      "1 hospital with multilingual staff",
+      "Several clinics available across the island",
+      "Emergency services available 24/7"
+    ],
+    "safety": [
+      "Violent crime is very rare on Taniti",
+      "Some pickpocketing reported in tourist areas - stay aware",
+      "Keep valuables secure in hotel safes"
+    ],
+    "currency": [
+      "U.S. dollars accepted everywhere",
+      "Euros and yen also accepted at many businesses",
+      "Banks available for currency exchange",
+      "Major credit cards widely accepted"
+    ],
+    "language": [
+      "Many young Tanitians speak fluent English",
+      "English less common in rural areas and among older residents",
+      "Hospital staff are multilingual"
+    ],
+    "importantDetails": [
+      "Power outlets: 120 volts (same as USA)",
+      "Alcohol sales: 9am - midnight only",
+      "Drinking age: 18 (not strictly enforced)",
+      "Many national holidays - attractions may be closed, plan accordingly"
+    ]
+  }
+}
